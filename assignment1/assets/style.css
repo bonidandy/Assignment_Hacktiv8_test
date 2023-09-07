@@ -8,5 +8,22 @@
 
 
 .tutorial{
-    font-size: 25px;
+    font-size: 1.56rem;
 }
+
+footer{
+    height: 3.12rem;
+    width: 100%;
+    background-color: #E2E3E5;
+    display: grid;
+    align-content: center;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0px 6.25rem;
+}
+
