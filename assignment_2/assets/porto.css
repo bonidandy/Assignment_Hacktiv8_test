@@ -27,9 +27,36 @@ header{
     margin-right: 1.56rem;
 }
 
-.navbar li:hover{
+.navbar .list-link{
+    position: relative;
     color: black;
-    opacity: 0.6;
+    text-decoration: none;
+    padding: 7px 0;
+    font-weight: 500;
+}
+
+.navbar .list-link:hover{
+    color: #4897D8;
+}
+
+.navbar .list-link::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    height: 2px;
+    background: #4897D8;
+    transform: scaleX(0);
+    transition: transform .4s;
+}
+
+.navbar .list-link:hover::after{
+    transform: scaleX(1); 
+    transform-origin: left;
+    left: 0;
+    width: 100%;
 }
 
 body{
