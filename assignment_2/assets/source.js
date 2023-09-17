@@ -13,7 +13,7 @@ submitButton.addEventListener('click', function () {
     const email = document.querySelector('input:nth-of-type(7)').value;
 
     // Dapatkan elemen dengan class "data"
-    const dataElement = document.querySelector('.data');
+    const dataElement = document.querySelector('.isi-data');
 
     // Ubah isi dari elemen "data" dengan nilai input yang didapatkan
     dataElement.innerHTML = `
@@ -24,7 +24,7 @@ submitButton.addEventListener('click', function () {
         <p>${email}</p>
     `;
 
-    const profileElement = document.querySelector('.user')
+    const profileElement = document.querySelector('.name')
 
     profileElement.innerHTML = `
         <h1>${name}<h1>
