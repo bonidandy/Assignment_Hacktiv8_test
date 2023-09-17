@@ -29,5 +29,23 @@ footer{
 }
 
 @media screen and (max-width: 487px) {
-    
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "nav"
+        "jumbotron"
+        "content"
+        "content"
+        "content"
+        "content"
+        "footer";
+    }
+
+    .nav{
+        grid-area: nav;
+    }
+
+
 }
