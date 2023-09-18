@@ -174,6 +174,7 @@ body{
 .buttn{
     background-color: #3F7A9F;
     border-radius: 5px;
+    color: white;
 }
 
 @media screen and (max-width: 487px) {
